@@ -5,6 +5,7 @@ require 'rails/all'
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
+config.assets.initialize_on_precompile = false
 
 module Shopify
   class Application < Rails::Application
@@ -22,3 +23,5 @@ module Shopify
 	config.assets.initialize_on_precompile = false
   end
 end
+
+config.assets.initialize_on_precompile = false
