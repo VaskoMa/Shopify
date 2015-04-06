@@ -49,3 +49,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin]
 gem 'devise'
 
 gem 'puma'
+
+gem 'rails_12factor'
+
+gem 'ruby'
