@@ -52,4 +52,4 @@ gem 'puma'
 
 gem 'rails_12factor'
 
-gem 'ruby'
+gem 'ruby', '2.0.0'
