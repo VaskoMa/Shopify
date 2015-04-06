@@ -6,7 +6,9 @@ require 'rails/all'
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
 
-config.assets.initialize_on_precompile = false
+Rails.application.configure do
+	config.assets.initialize_on_precompile = false
+end
 
 module Shopify
   class Application < Rails::Application
