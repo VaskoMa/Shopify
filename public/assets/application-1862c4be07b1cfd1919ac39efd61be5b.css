@@ -1,0 +1,349 @@
+body, html {
+	height: 100%;
+	width: 100%;
+}
+
+body, h1, h2, h3, h4, h5, h6 {
+	font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 700;
+}
+
+.lead {
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.intro-header {
+	padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+	padding-bottom: 50px;
+	color: #f8f8f8;
+	background: url(/assets/intro-bg.jpg) no-repeat center center;
+	background-size: cover;
+	text-align: center;
+}
+
+.intro-message {
+	position: relative;
+	padding-top: 20%;
+	padding-bottom: 20%;
+}
+
+.intro-message > h1 {
+	margin: 0;
+	font-size: 5em;
+	text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.intro-divider {
+	width: 400px;
+	border-top: 1px solid #f8f8f8;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.intro-message > h3 {
+	text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+@media (max-width: 767px) {
+	.intro-message {
+		padding-bottom: 15%;
+	}
+
+	.intro-message > h1 {
+		font-size: 3em;
+	}
+
+	ul.intro-social-buttons > li {
+		display: block;
+		margin-bottom: 20px;
+		padding: 0;
+	}
+
+	ul.intro-social-buttons > li:last-child {
+		margin-bottom: 0;
+	}
+
+	.intro-divider {
+		width: 100%;
+	}
+}
+
+.network-name {
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: 2px;
+}
+
+.content-section-a {
+	background-color: #f8f8f8;
+	padding: 50px 0;
+}
+
+.content-section-b {
+	border-top: 1px solid #e7e7e7;
+	border-bottom: 1px solid #e7e7e7;
+	padding: 50px 0;
+}
+
+.section-heading {
+	margin-bottom: 30px;
+}
+
+.section-heading-spacer {
+	border-top: 3px solid #e7e7e7;
+	width: 200px;
+	float: left;
+}
+
+.banner {
+	padding: 100px 0;
+	color: #f8f8f8;
+	background: url(/assets/banner-bg.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.banner h2 {
+	margin: 0;
+	text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+	font-size: 3em;
+}
+
+.banner ul {
+	margin-bottom: 0;
+}
+
+.banner-social-buttons {
+	float: right;
+	margin-top: 0;
+}
+
+@media (max-width: 1199px) {
+	ul.banner-social-buttons {
+		float: left;
+		margin-top: 15px;
+	}	
+}
+
+@media (max-width: 767px) {
+	.banner h2 {
+		margin: 0;
+		text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+		font-size: 3em;
+	}
+
+	ul.banner-social-buttons > li {
+		display: block;
+		margin-bottom: 20px;
+		padding: 0;
+	}
+
+	ul.banner-social-buttons > li:last-child {
+		margin-bottom: 0;
+	}	
+}
+
+footer {
+	background-color: #f8f8f8;
+	padding: 50px 0;
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+}
+
+p.copyright {
+	margin: 15px 0 0;
+}
+@font-face {
+  font-family:"Guardian-EgypTT";
+  font-style: normal;
+  font-weight: 400;
+  src: url("assets/fonts/Guardian-EgypTT-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family:"Guardian-EgypTT";
+  font-style: normal;
+  font-weight: 500;
+  src: url("assets/fonts/Guardian-EgypTT-Medium.woff") format("woff");
+}
+
+
+body {
+  background-color: #efefeb;
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+}
+
+/* Browse */
+.browse {
+  background-color: #fff;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.header-nav {
+  list-style-type: none;
+}
+
+.browse ul,
+.account ul,
+.footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+.browse li {
+  color: #666;
+  display: inline-block;
+  font-size: 12px;
+  line-height: 1.2;
+  margin: 0;
+  padding: 10px 12px;
+}
+
+
+/* Header */
+.header {
+  background-color: #fff;
+}
+
+.logo {
+  float: left;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.account {
+  float: right;
+}
+
+.account li {
+  display: inline-block;
+  font-size: 14px;
+  height: 33px;
+  margin-top: 33px;
+  margin-right: 14px;
+}
+
+.account a {
+  color: #0192b5;
+}
+
+.btn-default {
+  background-color: #fff;
+  border-color: #0192b5;
+}
+
+.cart {
+  border-left: 1px solid rgba(0,0,0,0.1);
+  color: #888;
+  margin-left: 10px;
+  margin-top: 13px;
+  padding-left: 20px;
+}
+
+/* Jumbotron */
+
+.jumbotron {
+  height: 400px;
+  width: 100%;
+  background-image: url("http://img0.etsystatic.com/site-assets/homepage-carousel/shc-hunterpassleather.jpg");
+  background-size: cover;
+  margin-bottom: 0;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  padding: 30px 0;
+  text-shadow: 0 2px 1px rgba(0,0,0,.2);
+  font-family: 'Guardian-EgypTT', Georgia, serif;
+  font-size: 42px;
+  font-weight: 400;
+}
+
+/* Trending */
+.trending {
+  padding: 60px;
+}
+
+.trending h2 {
+  text-shadow: 0 2px 1px rgba(255,255,255,.8);
+  font-family: 'Guardian-EgypTT', Georgia, serif;
+  color: #333;
+  font-size: 32px;
+  font-weight: 500;
+  margin: 0;
+  text-align: center;
+}
+
+.trending p {
+  color: #888;
+  font-family: "Guardian-EgypTT", Georgia, serif;
+  font-size: 18px;
+  margin-bottom: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.listing-title {
+  color: #666;
+}
+
+.listing-price {
+  color: #78c042;
+}
+
+/* Footer */
+
+.footer .container {
+  border-top: 1px solid #e2e2e2;
+  margin-top: 20px;
+  padding-top: 46px;
+  padding-bottom: 46px;
+}
+
+.footer h4 {
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  color: #999;
+  margin-bottom: 8px;
+}
+
+.footer h4,
+.footer li {
+  margin-bottom: 8px;
+}
+
+.footer li a {
+  font-size: 11px;
+}
+
+.footer i {
+  padding-right: 5px;
+}
+
+.fa-shopping-cart span,
+.btn-default {
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+

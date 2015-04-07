@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.8'
+gem 'sass'
 # Use sqlite3 as the database for Active Record
 #gem 'sqlite3'
 group :development, :test do
@@ -45,11 +46,9 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin]
-
 gem 'devise'
-
 gem 'puma'
-
 ruby '2.1.5'
-
 gem 'rails_12factor', group: :production
+gem 'font-awesome-rails'
+gem 'bootstrap-sass', '~> 3.3.4.1'
