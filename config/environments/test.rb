@@ -36,4 +36,7 @@ Rails.application.configure do
 
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
+
+  # With this hopefully I will not get the error on heroku
+  config.assets.initialize_on_precompile = false
 end
